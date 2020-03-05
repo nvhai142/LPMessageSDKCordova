@@ -9,9 +9,6 @@
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
 
-  <asset src="www/lpMessagingSDK.js" target="js/lpMessagingSDK.js"/>
-
-
   <js-module src="www/lpMessagingSDK.js" name="lpMessagingSDK">
     <clobbers target="lpMessagingSDK" />
   </js-module>
