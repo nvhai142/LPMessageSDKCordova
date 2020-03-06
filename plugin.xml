@@ -49,6 +49,7 @@
           </feature>
       </config-file>
       <preference name="UseSwiftLanguageVersion" value="5" />
+      <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
 
       <framework src="src/ios/frameworks/LPAMS.framework" custom="true" />
       <framework src="src/ios/frameworks/LPInfra.framework" custom="true" />
