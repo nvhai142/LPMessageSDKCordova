@@ -10,7 +10,7 @@
   </engines>
 
   <js-module src="www/lpMessagingSDK.js" name="lpMessagingSDK">
-    <clobbers target="lpMessagingSDK" />
+    <clobbers target="LPMessagingSDK" />
   </js-module>
 
   <!-- Android -->
