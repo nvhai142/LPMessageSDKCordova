@@ -1,7 +1,11 @@
+/**
+ * adapted from https://github.com/aabluedragon/zcordova-plugin-archtrim and http://ikennd.ac/blog/2015/02/stripping-unwanted-architectures-from-dynamic-libraries-in-xcode/
+*/
+
 'use strict';
 
-const xcode = require('xcode'),
-    fs = require('fs'),
+const  fs = require('fs'),
+      xcode = require('xcode'),
     path = require('path');
 
 module.exports = function(context) {
