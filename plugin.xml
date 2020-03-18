@@ -60,7 +60,7 @@
       <framework src="src/ios/frameworks/LPMessagingSDK.framework" custom="true" />
       <resource-file src="src/ios/frameworks/LPMessagingSDKModels.bundle" custom="true"/>
       <source-file src="src/ios/LPMessagingSDKPlugin.swift" />
-      <source-file src="src/ios/LPSDKCordovaSample-Bridging-Header.h" />
+      <source-file src="src/ios/LPMessagingSDKPlugin-Bridging-Header.h" />
   </platform>
 
 </plugin>
